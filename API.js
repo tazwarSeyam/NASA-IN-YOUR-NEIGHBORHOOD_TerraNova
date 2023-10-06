@@ -9,8 +9,8 @@ searchButton.addEventListener("click", () => {
 
 // An asynchronous function to fetch data from the API.
 async function sendApiRequest() {
-  let API_KEY = "L44NaFEzb3vdjuv72fp38V48kPZU5ER0oumLKBBx"
-  let response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`);
+  let API_KEY = "ofETeqgm4zZtNd6kZlrHYludtxiS8kBQZn6zu9kA"
+  let response = await fetch(`https://api.nasa.gov/planetary/earth/assets?lon=100.75&lat=1.5&date=2014-02-01&dim=0.15&api_key=${API_KEY}`);
   console.log(response)
 
   if (response.status === 200) {
