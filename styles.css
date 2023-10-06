@@ -1,0 +1,16 @@
+/* Define styles for the progress bar container */
+.progress-container {
+    width: 200px; /* Set the width of the container */
+    background-color: #ccc; /* Background color of the container */
+    border-radius: 5px; /* Rounded corners for the container */
+    padding: 5px; /* Add some padding for better appearance */
+}
+
+/* Define styles for the percentage text */
+.percentage {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font */
+    font-weight: normal; /* Regular font weight */
+    font-size: 96px; /* Font size 96px */
+    color: white; /* Text color is white */
+    text-align: center; /* Center align the text */
+}
